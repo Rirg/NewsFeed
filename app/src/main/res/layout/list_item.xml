@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/image_view"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            tools:text="Bomba en usa el día.." />
+
+        <TextView
+            android:id="@+id/description_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_text_view"
+            tools:text="Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet
+                nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luc
+                tus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel"
+            android:ellipsize="end"
+            android:maxLines="2"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        tools:src="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>

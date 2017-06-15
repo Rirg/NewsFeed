@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">News Feed</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="no_internet_connection">There is no Internet Connection.</string>
+    <string name="no_news">No news found.</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_top_value </string>
+
+    <!-- Strings For Source-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_source_label">Source</string>
+    <string name="settings_source_key" translatable="false">source_by</string>
+    <string name="settings_source_default" translatable="false">@string/settings_source_bbc_value</string>
+    
+    <string name="settings_source_bbc_label">BBC NEWS</string>
+    <string name="settings_source_bbc_value" translatable="false">bbc-news</string>
+
+    <string name="settings_source_cnn_label">CNN</string>
+    <string name="settings_source_cnn_value" translatable="false">cnn</string>
+
+    <string name="settings_source_espn_label">ESPN</string>
+    <string name="settings_source_espn_value" translatable="false">espn</string>
+    
+    <string name="settings_source_theladbible_label">THE LAD BIBLE</string>
+    <string name="settings_source_theladbible_value" translatable="false">the-lad-bible</string>
+
+    <string name="settings_source_google_news_label">GOOGLE NEWS</string>
+    <string name="settings_source_google_news_value">google-news</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_latest_label">Latest</string>
+    <string name="settings_order_by_latest_value" translatable="false">latest</string>
+
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_popular_label">Popular</string>
+    <string name="settings_order_by_most_popular_value" translatable="false">popular</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_top_label">Top</string>
+    <string name="settings_order_by_top_value" translatable="false">top</string>
+
+    <!-- Menu configuration -->
+    <string name="settings_title">News Configuration</string>
+</resources>
